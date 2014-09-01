@@ -1,0 +1,7 @@
+<%= simple_form_for user, remote: true do |f| %>
+  <%= f.input :name %>
+  <%= f.input :email %>
+  <%= f.input :password, type: :password %>
+  <%= f.input :password_confirmation, type: :password %>
+  <%= f.button :submit %>
+<% end %>
